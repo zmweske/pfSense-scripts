@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# from https://github.com/Weehooey/pfSense-scripts
+
 pkg install -y qemu-guest-agent > /dev/null
 
 cat > /etc/rc.conf.local << EOF
